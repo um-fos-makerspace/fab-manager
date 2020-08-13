@@ -3,19 +3,19 @@ en:
     notifications_mailer:
       see_you_later: "See you soon on {GENDER, select, neutral{} other{the}}"  #messageFormat interpolation
       sincerely: "Sincerely,"
-      signature: "The Fab Lab team."
+      signature: "The Makerspace team."
       do_not_reply: "Please do not reply to this email."
   users_mailer:
     notify_user_account_created:
-      subject: "Your FabLab account has been successfully created"
+      subject: "Your Makerspace account has been successfully created"
       body:
         hello: "Hello %{NAME},"
-        intro: "The FabLab team has just created an account for you, on {GENDER, select, neutral{} other{the}} {FABLAB} website:"  #messageFormat interpolation
+        intro: "The Makerspace team has just created an account for you, on {GENDER, select, neutral{} other{the}} {FABLAB} website:"  #messageFormat interpolation
         connection_parameters: "Here are your connection parameters:"
         account_name: "Account name:"
         password: "Password:"
         temporary_password: "This is a temporary password, you can modify it in your «My account» screen."
-        keep_advantages: "With this account, you keep all the advantages linked to your Fab Lab user profile (trainings, subscriptions plans)."
+        keep_advantages: "With this account, you keep all the advantages linked to your Makerspace user profile (trainings, subscriptions plans)."
         to_use_platform: "To use the website, please"
         logon_or_login: "create a new account or log in by clicking here."
         token_if_link_problem: "If you experience issues with the link, you can enter the following code at your first connection attempt:"
@@ -106,10 +106,10 @@ en:
       body:
         plan_subscribed_html: "A plan <strong><em>%{PLAN}</em></strong> has been subscribed by user <strong><em>%{NAME}</strong></em>."
     notify_member_invoice_ready:
-      subject: "Your FabLab's invoice"
+      subject: "Your Makerspace's invoice"
       body:
         please_find_attached_html: "Please find as attached file your invoice from {DATE}, with an amount of {AMOUNT} concerning your {TYPE, select, Reservation{reservation} other{subscription}}."  #messageFormat interpolation
-        invoice_in_your_dashboard_html:  "You can access your invoice in %{DASHBOARD} on the Fab Lab website."
+        invoice_in_your_dashboard_html:  "You can access your invoice in %{DASHBOARD} on the Makerspace website."
         your_dashboard: "your dashboard"
     notify_member_reservation_reminder:
       subject: "Reservation reminder"
@@ -117,10 +117,10 @@ en:
         this_is_a_reminder_about_your_reservation_RESERVABLE_to_be_held_on_DATE_html: "This is a reminder about your reservation <strong>%{RESERVABLE}</strong> to be held on <em>%{DATE}</em>"
         this_reservation_concerns_the_following_slots: "This reservation concerns the following slots:"
     notify_member_avoir_ready:
-      subject: "Your FabLab's refund invoice"
+      subject: "Your Makerspace's refund invoice"
       body:
         please_find_attached_html: "Please find as attached file your refund invoice from {DATE}, with an amount of {AMOUNT} concerning your {TYPE, select, Reservation{reservation} WalletTransaction{wallet credit} other{subscription}}."  #messageFormat interpolation
-        invoice_in_your_dashboard_html: "You can access your refund invoice in %{DASHBOARD} on the Fab Lab website."
+        invoice_in_your_dashboard_html: "You can access your refund invoice in %{DASHBOARD} on the Makerspace website."
         your_dashboard: "your dashboard"
     notify_member_subscription_will_expire_in_7_days:
       subject: "Your subscription expires in 7 days"
@@ -176,7 +176,7 @@ en:
       body:
         message: "Your account informations has been correctly updated, you now have access to the whole website."
     notify_user_auth_migration:
-      subject: "Important change to your FabLab account"
+      subject: "Important change to your Makerspace account"
       body:
         the_platform: "the website"
         is_changing_its_auth_system_and_will_now_use: "is actually changing its user identification system and will use"

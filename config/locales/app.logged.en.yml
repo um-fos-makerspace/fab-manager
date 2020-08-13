@@ -32,7 +32,7 @@ en:
         your_user_s_profile: "Your user's profile"
         user_s_profile_is_required: "User's profile is required."
         i_ve_read_and_i_accept_: "I've read and I accept"
-        _the_fablab_policy: "the FabLab policy"
+        _the_fablab_policy: "the Makerspace policy"
         change_my_data: "Change my data"
         sync_my_profile: "Sync my profile"
         once_your_data_are_up_to_date_: "Once your data are up to date,"
@@ -130,7 +130,7 @@ en:
         members_list: "Members list"
       #list of members accepting to be contacted
       members:
-        the_fablab_members: "The Fab Lab members"
+        the_fablab_members: "The Makerspace members"
         display_more_members: "Display more members..."
         no_members_for_now: "No members for now"
         avatar: "Avatar"

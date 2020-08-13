@@ -56,8 +56,8 @@ en:
         address: "Address"
         phone_number: "Phone number"
         phone_number_is_required: "Phone number is required."
-        i_authorize_Fablab_users_registered_on_the_site_to_contact_me: "I authorize FabLab users, registered on the site, to contact me"
-        i_accept_to_receive_information_from_the_fablab: "I accept to receive information from the FabLab"
+        i_authorize_Fablab_users_registered_on_the_site_to_contact_me: "I authorize Makerspace users, registered on the site, to contact me"
+        i_accept_to_receive_information_from_the_fablab: "I accept to receive information from the Makerspace"
         used_for_statistics: "This data will be used for statistical purposes"
         used_for_invoicing: "This data will be used for billing purposes"
         used_for_reservation: "This data will be used in case of change on one of your bookings"
@@ -268,7 +268,7 @@ en:
       #modal introducing that a user must wait for his training being validated before booking a machine
       training_reservation_modal:
         machine_reservation: "Machine reservation"
-        you_must_wait_for_your_training_is_being_validated_by_the_fablab_team_to_book_this_machine: "You must wait for your training is being validated by the FabLab team to book this machine."
+        you_must_wait_for_your_training_is_being_validated_by_the_fablab_team_to_book_this_machine: "You must wait for your training is being validated by the Makerspace team to book this machine."
         your_training_will_occur_: "Your training will occur"
       #user public profile
       public_profile:
@@ -355,7 +355,7 @@ en:
         unable_to_apply_the_coupon_because_sold_out: "Unable to apply the coupon: this code reached its quota."
         unable_to_apply_the_coupon_because_already_used: "Unable to apply the coupon: you have already used this code once before."
         unable_to_apply_the_coupon_because_amount_exceeded: "Unable to apply the coupon: the discount exceed the total amount of this purchase."
-        unable_to_apply_the_coupon_because_undefined: "Unable to apply the coupon: an unexpected error occurred, please contact the Fablab's manager."
+        unable_to_apply_the_coupon_because_undefined: "Unable to apply the coupon: an unexpected error occurred, please contact the Makerspace's manager."
         unable_to_apply_the_coupon_because_rejected: "This code does not exists."
       #form to create/edit a space
       space:
@@ -415,7 +415,7 @@ en:
         confirm_payment_of_html: "{ROLE, select, admin{Payment on site} other{Pay}}: {AMOUNT}"  #eg. confirm my payment of $20.00
         a_problem_occurred_during_the_payment_process_please_try_again_later: "A problem occurred during the payment process. Please try again later."
         none: "None"
-        online_payment_disabled: "Online payment is not available. Please contact the FabLab's reception directly."
+        online_payment_disabled: "Online payment is not available. Please contact the Makerspace's reception directly."
         slot_restrict_plans: "This slot is restricted for the plans below:"
         slot_restrict_subscriptions_must_select_plan: "The slot is restricted for the subscribers. Please select a plan first."
         slot_restrict_plans_of_others_groups: "The slot is restricted for the subscribers of others groups."
